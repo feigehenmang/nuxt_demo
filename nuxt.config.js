@@ -3,5 +3,8 @@ module.exports = {
     {
       src: '~plugins/particles', ssr: false
     }
+  ],
+  modules: [
+    '@nuxtjs/axios'
   ]
 }

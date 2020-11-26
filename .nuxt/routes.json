@@ -3,21 +3,18 @@
     "name": "login",
     "path": "/login",
     "component": "E:\\\\nuxt\\\\pages\\\\login.vue",
-    "chunkName": "pages/login",
-    "_name": "_b8a54dea"
+    "chunkName": "pages/login"
   },
   {
     "name": "index",
     "path": "/",
     "component": "E:\\\\nuxt\\\\pages\\\\index.vue",
-    "chunkName": "pages/index",
-    "_name": "_4bf49418"
+    "chunkName": "pages/index"
   },
   {
     "name": "tmplId",
     "path": "/:tmplId",
     "component": "E:\\\\nuxt\\\\pages\\\\_tmplId.vue",
-    "chunkName": "pages/_tmplId",
-    "_name": "_910e091e"
+    "chunkName": "pages/_tmplId"
   }
 ]
