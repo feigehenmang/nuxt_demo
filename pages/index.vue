@@ -11,8 +11,8 @@
 
 <script>
   export default {
-    asyncData() {
-
+    asyncData({$axios}) {
+      console.log('arg', $axios);
     },
     computed: {
       movies() {
