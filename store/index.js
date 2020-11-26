@@ -13,7 +13,11 @@ export const getters = {
 }
 export const actions = {
   getMovies(store, param) {
-    console.log(store, param);
-    this.$axios.$get('')
+    // console.log(store, param);
+    this.$axios.$get('https://jsonplaceholder.typicode.com/users/', param)
+    .then(res => {
+      console.log(res);
+      store.commit('setMovie', res);
+    })
   }
 }
